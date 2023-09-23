@@ -9,15 +9,25 @@
     clip-path: polygon(0 0,100% 0,100% 100% ,70% 87%, 0 100% );
 }
 .content{
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
 }
-.image_container,img{
+.top_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_container img{
+    
     height: 200px;
     width: 200px;
-    float:right;
+    
 }
 .apj_name {
-    margin: 15px;
-    padding: 20px;
+    margin: 50px 40px;
+    padding:  70px 10px;
+}
+.apj_name h2{
+    font-weight: 500;
+    color: rgb(115, 115, 48);
 }
