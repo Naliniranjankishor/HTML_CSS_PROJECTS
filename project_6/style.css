@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+     display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(117deg,#7dced6 30% ,#dbd1d1 70%)
+}
+.pay-card {
+      display: flex;
+      /* flex-direction:column; */
+     justify-content: center;
+     align-items: center;
+    width: auto;  
+      /* max-width: 370px; */
+    /* width: 100%; */
+     border-radius: 24px;
+     padding: 25px;
+     box-shadow: 0 5px 10px rgb(0, 0, 0.1);   
+    }
+.account {
+    /* display: flex;
+    justify-content: center; */
+     /* width: 100px;  */
+    background-color: #395555;
+    margin-bottom: 14px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    color: #ffffff;
+    letter-spacing: .5px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.user-login input{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 350;
+    margin: 7px 0px;
+    padding:  12px;
+    border: 1px solid rgb(151, 149, 149);
+    min-width: 100%; 
+    border-radius: 7px;
+    background:transparent;
+}
+input::placeholder{
+    color: #242323;
+}
+ /* .user-login input[placeholder]{
+    font-color: rgb(40, 40, 39);
+ } */
+ input:focus{
+    background-color: rgb(228, 226, 223);
+    outline: none;
+    border: 1px solid sandybrown;
+}
+.password{
+    margin-bottom: 5px;
+}
+
+.dob {
+    
+    /* margin-top: 13px; */
+    margin-bottom: 4px;
+    padding: 7px; 
+    /* margin-top: 10px; */
+    /* padding: 10px; */
+    float: left;
+    width: 50%;
+    /* border: 1px solid rgb(151, 149, 149) ; */
+    background-color:cadetblue;
+    border-radius: 0 8px;
+    /* letter-spacing: .5px; */
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.gender{
+    /* border: 1px solid red; */
+    /* margin-top: 13px; */
+     margin-bottom: 4px;
+    padding: 7px; 
+    /* margin-left: 10px; */
+    /* padding-left: 25px;  */
+    border-radius:0 8px;
+    background-color: #395555;
+    /* letter-spacing: .5px; */
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dob-info{
+    float: left;
+    /* border: 1px solid rgb(151, 149, 149); */
+    border-radius: 7px;
+    width: 50%;
+}
+
+  .gender-1{
+    margin-bottom: 5px;
+    padding-top: 12px;
+    padding-left: 5px;
+    border: 1px solid rgb(151, 149, 149);
+    /* border-right: 1px solid rgb(220, 192, 192);  */
+    float: right;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    /* display: inline-block; */
+    min-height: 45px;
+    border-radius: 7px;
+    /* text-align: center; */
+ } 
+ 
+  .gender-2{
+    display: inline-block;
+    width: 25%;
+    min-height: 45px;
+    margin-bottom: 5px;
+    padding-top: 12px;
+    padding-left: 5px;
+    border: 1px solid rgb(151, 149, 149);
+    border-right: none ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size : 18px ;
+    font-weight : 400 ;
+    border-radius: 7px;
+
+ } 
+ 
+.dd {
+    padding: 8px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(68, 68, 64);
+    text-align: center; 
+    min-height: 44px;
+    max-width: 48px;
+    border-radius: 7px;
+    border: 1px solid rgb(151, 149, 149); 
+    outline:none ; 
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+}
+ 
+.dd:focus{
+    background-color: rgb(228, 226, 223);
+    color: rgb(38, 41, 41);
+    
+}
+
+ input[type="radio"] {
+    display: none;
+
+ } 
+
+  /* input[type="radio"]+label, */
+/* select {
+    display: inline-block;  
+     width: 50%; 
+    text-align: center; */
+    /* float: none; */
+    /* border-radius: 0; */
+/* } */
+    
+/* .genderSs{
+    float: left;
+} */
+
+input[type="radio"]:checked +label,
+ input:checked +label :before,
+ select :focus 
+select:active {
+    background-color: #f0a500;
+    color: #fff;
+    /* border-color: #bd8200; 
+    /* transition: all 0.3s ease ease-out; */
+ }  
+
+  /* .payment-mode{
+   display: flex;
+   justify-content: space-between;
+    max-width: 100%;  
+  } 
+    */
+
+.payment-details h4{
+    width: 50%;
+    background-color: cadetblue;
+    border-radius: 0 8px;
+    /* letter-spacing: .5px; */
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4px 0px 2px 0px;
+    padding: 7px;
+}
+.payment-mode input{
+    float: left;
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 350;
+    margin: 7px 0px;
+    padding: 12px;
+    border: 1px solid rgb(151, 149, 149);
+    /* min-width: 100%; */
+    border-radius: 7px;
+    background: transparent;
+    /* outline: none; */
+}
+.payment-mode input:focus{
+    background-color: rgb(228, 226, 223);
+    outline: none;
+    border: 1px solid sandybrown;
+}
+.payment-mode input::placeholder{
+    /* font-weight: 600; */
+    color: #242323;
+}
+.card-number input{
+    width: 100%;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 350;
+    margin: 7px 0px;
+    padding: 12px;
+    border: 1px solid rgb(151, 149, 149);
+    /* min-width: 100%; */
+    border-radius: 7px;
+    /* background: transparent; */
+    /* outline: none; */
+}
+.card-number input:focus{
+    background-color: rgb(228, 226, 223);
+    outline: none;
+    border: 1px solid sandybrown;
+}
+.card-cvc  {
+    float: left;
+    width: 50%;
+}
+
+.card-cvc input:focus {
+    background-color: rgb(228, 226, 223);
+    outline: none;
+    border: 1px solid sandybrown;
+}
+.card-cvc input{
+    border: 1px solid red;
+    display: inline-block; 
+    width: 150px;
+    min-height: 45px;
+    margin-bottom: 5px;
+    padding-top: 12px 0px;
+    padding-left: 5px;
+    border: 1px solid rgb(151, 149, 149);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 7px;
+    background: transparent;
+ }  
+.card-exp-date select{
+    color: #242323;
+    /* overflow: auto; */
+    display: inline-block;
+        width: 24.5%;
+        min-height: 45px;
+        margin-bottom: 5px;
+        padding-top: 12px 0px;
+        padding-left: 5px;
+        border: 1px solid rgb(151, 149, 149);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 7px;
+        background: transparent;
+}
+select:focus {
+
+    background-color: rgb(228, 226, 223);
+    outline: none;
+    border: 1px solid sandybrown;
+}
+.card-number input::placeholder{
+    color: #242323;
+    font-weight: 500;
+}
+.credit-card-mode input::placeholder{
+    color: #242323 ;
+    font-weight: 500;
+}
+.paypal-mode input::placeholder{
+    font-weight: 500;
+    color: #242323;
+}
+.cvc input::placeholder {
+    font-weight: 500;
+    color: #242323;
+}
+
+.terms-condition h4{
+    width: fit-content;
+    /* border: 1px solid red; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding:9px;
+        padding-right: 13px;
+        /* margin-left: 10px; */
+        /* padding-left: 25px;  */
+        border-radius: 0 8px;
+        background-color: #395555;
+        /* letter-spacing: .5px; */
+        color: #ffffff;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+}
+.condition label{
+    font-family: 'Courier New', Courier, monospace;
+    color:#242323;
+    
+}
+
+
+
+

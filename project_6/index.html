@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="pay-card">
+        <form action="" class="account-form">
+            <section class="user-info">
+                <h4 class="account">Account</h4>
+                <div class="user-login">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="user-login">
+                    <input type="email" name="email" id=""placeholder="Email-address">
+                </div>
+                <div class="user-login password">
+                    <input type="password" name="password"id=""placeholder="Password" maxlength="8" required>
+                </div>
+                
+            </section>
+            <section class="user-info" >
+            <!-- ------date of birth-------- -->
+                
+               <h4 class="dob">Date Of Birth</h4>
+               <h4 class="gender">Gender</h4>
+              <div class="dob-info">
+                <input type="text" value="" class="dd" placeholder="DD" maxlength="2">
+                <input type="text" value="" class="dd" placeholder="MM" maxlength="2">
+                <input type="text" value="" class="dd" placeholder="YYYY" maxlength="4">
+
+              </div>
+              <div class="gender-info">
+                
+                <input type="radio" name="Gender" id="Gender-Female" value="Female" class="gender-1 " >
+                <label for="Gender-Female" class="gender-1"> Female </label>
+                <input type="radio" name="Gender" id="Gender-Male" value="Male">
+                <label for="Gender-Male" class="gender-2"> Male </label>
+                
+              </div>
+                        
+            <section>
+            <!-- <section class="user-info"> 
+                    <div class="genderS">
+                    <input type="text" value="" class="dd" placeholder="DD" maxlength="2">
+                    <input type="text" value="" class="dd" placeholder="MM" maxlength="2">
+                    <input type="text" value="" class="dd" placeholder="YYYY" maxlength="2">
+                    </div>       -->
+            <!--===== gender =====-->
+
+                    <!-- <div class="genderSs">
+                        <div class="gen">
+                        <input type="radio" name="Gender" id="Gender-Female" value="Female" class="gender-1">
+                        <label for="Gender-Female" class="gender-1"> Female </label></div>
+                        <div class="gen">
+                        <input type="radio" name="Gender" id="Gender-Male" value="Male" >
+                        <label for="Gender-Male" class="gender-1"> Male </label>
+                    </div>
+                    </div>   -->
+            </section>
+                
+            
+            <section class="payment-details">
+                    <h4>Payment Details</h4>
+                    <div class="payment-mode" >
+                        <div class="credit-card-mode">
+                            <input type="text" id="credit-card" placeholder="Credit Card" class="c-card">
+                        </div>
+                        <div class="paypal-mode">
+                            <input type="text" id="paypal" placeholder="paypal">
+                        </div>
+                    </div>
+            </section>
+            <section class="card-details">
+                    <div class="card-number">
+                        <input type="text" id="card-number" placeholder="Card Number">
+                    </div>
+                    <div class="card-cvc">
+                        <div class="cvc">
+                            <input type="text" id="cvc" placeholder="Card CVC">
+                        </div>
+                    </div>
+                        <div class="card-exp-date">
+                            <select name="date" id="">
+                                <option value="">03 jan</option>
+                                <option value="">09 feb</option>
+                                <option value="">12 march</option>
+                                <option value="">16 apr</option>
+                                <option value="">02 may</option>
+                                <option value="">08 sep</option>
+                            </select>
+                        <!-- <div class="card-exp-date"> -->
+                            <select name="date" id="">
+                                <option value="">2027</option>
+                                <option value="">2029</option>
+                                <option value="">2028</option>
+                                <option value="">2025</option>
+                                <option value="">2031</option>
+                                <option value="">2026</option>
+                            </select>
+                         <!-- </div> -->
+                        </div>
+                    
+            </section>
+            
+
+            <section class="terms-condition" >
+                <h4>Terms and Conditions</h4>
+                <div class="condition">
+                    <input type="checkbox" name="term" id="condition">
+                    <label for="condition">I accept the terms and conditions for signing up <br>to this service,and hereby confirm I have read the<br> privacy policy.</label>
+                    
+                </div>
+            </section>
+
+        
+
+        </form>
+    </div>
+</body>
+</html>
